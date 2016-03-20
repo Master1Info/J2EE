@@ -1,0 +1,28 @@
+.floating-box1 {
+    display: inline-block;
+    margin-top: 10px;
+    }
+    
+.floating-box2 {
+    display: inline-block;
+    margin-top: 10px;
+    float:right;
+    margin-right: 15px;
+    }
+    
+.zone{
+	margin-top: 45px;
+	display: inline-block;
+	width: 900px;
+	margin-left: 200px;
+	
+}
+
+body {
+    background-color: black;
+    background: url(img/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
