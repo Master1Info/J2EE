@@ -14,13 +14,14 @@ import info.univ.angers.bean.Personne;
 public class Connexion extends HttpServlet {
 	
 	private static final long serialVersionUID = 1L;
-	
+
 	
 	public void doGet( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException {
 
 	       this.getServletContext().getRequestDispatcher("/WEB-INF/Connexion_view.jsp").forward(request, response);
 
 	}
+	
 	
 	public void doPost( HttpServletRequest request, HttpServletResponse response ) 
 	         throws ServletException, IOException{
