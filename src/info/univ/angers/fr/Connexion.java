@@ -25,6 +25,7 @@ public class Connexion extends HttpServlet {
 	
 	public void doPost( HttpServletRequest request, HttpServletResponse response ) 
 	         throws ServletException, IOException{
+	         	
 		String speudo = request.getParameter("Speudo");
 		String password = request.getParameter("Password");
 		String[] choix = request.getParameterValues("choix");
