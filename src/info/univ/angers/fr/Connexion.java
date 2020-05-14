@@ -18,6 +18,7 @@ public class Connexion extends HttpServlet {
 	
 	public void doGet( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException {
 
+
 	       this.getServletContext().getRequestDispatcher("/WEB-INF/Connexion_view.jsp").forward(request, response);
 
 	}
